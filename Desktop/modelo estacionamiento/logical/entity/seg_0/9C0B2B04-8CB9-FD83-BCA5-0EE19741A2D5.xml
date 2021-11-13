@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C0B2B04-8CB9-FD83-BCA5-0EE19741A2D5" name="cliente">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:05:09 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_cliente" id="C57F470C-23D0-C1D4-4E67-26C850ED6789">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:05:19 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_cliente" id="419B4C01-3AA4-C044-01A3-8028C888EED9">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:05:36 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_parte" id="C26FAAA1-9EAB-F380-CC50-33322E44E13D">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:06:33 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellid_ma" id="2A0A48A2-2D60-1AB8-6EB4-4F254E30C0DA">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:06:58 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="04B09CF0-8B0E-FE3E-C514-7FDD33A686EA">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:07:36 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4D60E86-0BE8-1E5F-A935-EBB7460C9BE2" name="cliente PK">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:05:31 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C57F470C-23D0-C1D4-4E67-26C850ED6789</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

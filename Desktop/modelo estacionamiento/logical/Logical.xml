@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="EE8F77BA-3AFD-FC63-1FA0-5353E85F7E4D" mainViewID="9B1B3F35-682C-9073-8CBB-2382CD0E5C97">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:01:53 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

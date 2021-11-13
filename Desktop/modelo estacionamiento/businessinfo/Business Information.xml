@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="DA599ED7-B446-038B-4613-5A42A7E6A9E7">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:01:53 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

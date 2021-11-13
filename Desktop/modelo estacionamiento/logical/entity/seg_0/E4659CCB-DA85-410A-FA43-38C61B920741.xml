@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4659CCB-DA85-410A-FA43-38C61B920741" name="usuario ">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:24:54 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usuarioid" id="6D6222E4-099D-5253-8B2C-1258564B28D2">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:25:01 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_usuari" id="D11FF791-DDCC-644F-D6C1-658D38F96035">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:25:11 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_cliente" id="F0E139F1-182E-9A49-1698-E61F5274B6C4">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:25:50 UTC</createdTime>
+<generatorID>2C40B25C-2D53-35B5-AEEC-F087E9919D2C</generatorID>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<referedAttribute>C57F470C-23D0-C1D4-4E67-26C850ED6789</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DECE8D34-370C-B211-F788-EFA51A8332B0" name="usuario PK">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:25:09 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D6222E4-099D-5253-8B2C-1258564B28D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

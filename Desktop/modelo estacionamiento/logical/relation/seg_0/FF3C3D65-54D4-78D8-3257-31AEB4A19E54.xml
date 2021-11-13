@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="FF3C3D65-54D4-78D8-3257-31AEB4A19E54">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:31:52 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<sourcePk>DECE8D34-370C-B211-F788-EFA51A8332B0</sourcePk>
+<targetPk>770C88DA-5530-373D-A61C-DBAC5B22FEDD</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E4659CCB-DA85-410A-FA43-38C61B920741</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>49FBE8F7-605D-EC7A-B614-53DCB4CFA172</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

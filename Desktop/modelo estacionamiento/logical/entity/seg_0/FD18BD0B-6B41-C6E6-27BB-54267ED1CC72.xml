@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD18BD0B-6B41-C6E6-27BB-54267ED1CC72" name="comuna">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:16:33 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="comunaid" id="9B4CD1EF-04BB-D2CA-7BBE-F71F85F3EB20">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:16:40 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="44ACDB7B-CA86-32E9-FD87-EF114A3F32E6">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:16:49 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_3" id="458CD053-EAF9-DD15-3DFD-E9817C2817B9">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:16:56 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_4" id="1239CE23-0154-4703-3279-DFEF804C7376">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:16:58 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="regionid" id="8BD7D1DA-8016-05D9-3816-3977C06E4DD5">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:21:12 UTC</createdTime>
+<generatorID>F276FF3A-508F-C952-76EF-4FE861FC31AE</generatorID>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<referedAttribute>36A12797-E256-239A-A49E-E7DC418C7F5D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD20B04F-8EFC-DEF5-7DCF-6180644CDC64" name="comuna PK">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:16:48 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B4CD1EF-04BB-D2CA-7BBE-F71F85F3EB20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

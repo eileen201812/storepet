@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="126A145C-6ED4-BF45-67FF-33A4055FDB74" name="modelo">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:11:12 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoid" id="62C490E0-6DC1-6A09-D8DD-E490BBA93C53">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:11:20 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="40394A56-33E3-70C1-5232-AA2542203594">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:11:31 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehiculoid" id="CD01406D-6A31-A5B5-0C17-629ED98DA8F9">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:19:14 UTC</createdTime>
+<generatorID>2E6A6ED8-807E-B465-F109-F24105AF6000</generatorID>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<referedAttribute>4990A38D-F41C-2582-9248-77559541E8B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marcaid" id="B0ED8D38-9201-66EF-EF47-DB3106A7EA79">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:19:40 UTC</createdTime>
+<generatorID>E150A705-6A42-4E12-289C-5A6FBC554EAB</generatorID>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<referedAttribute>B5EB5571-E0EC-8886-D0BB-36055BC3AA1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoid1" id="BA37B4A8-02B6-192C-5DF9-42DBF890A951">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:19:40 UTC</createdTime>
+<generatorID>E150A705-6A42-4E12-289C-5A6FBC554EAB</generatorID>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<referedAttribute>BEE35656-CA14-AD3F-A969-9282ADBE5F42</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EC0D12E-D5CB-B274-CAB4-BA8B4E4BEA12" name="modelo PK">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:11:29 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62C490E0-6DC1-6A09-D8DD-E490BBA93C53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

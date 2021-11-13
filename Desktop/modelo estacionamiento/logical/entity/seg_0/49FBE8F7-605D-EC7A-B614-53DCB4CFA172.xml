@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49FBE8F7-605D-EC7A-B614-53DCB4CFA172" name="reserva ">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:26:28 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="reservaid" id="C6CEEDD0-1868-AE63-D84C-E0E83CAD88E7">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:26:51 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_" id="6AAF8105-3BA4-CD8D-CD2D-6528E377EA4E">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:27:04 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reservaid1" id="8F99858A-51C4-480B-8F35-FC05B56FEB7A">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:31:45 UTC</createdTime>
+<generatorID>097F81CC-81EB-3E18-379F-D8B15E72E005</generatorID>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C6CEEDD0-1868-AE63-D84C-E0E83CAD88E7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuarioid" id="6F70D211-B1EA-162F-A6AE-E2E377FC14F1">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:32:14 UTC</createdTime>
+<generatorID>FF3C3D65-54D4-78D8-3257-31AEB4A19E54</generatorID>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<referedAttribute>6D6222E4-099D-5253-8B2C-1258564B28D2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="770C88DA-5530-373D-A61C-DBAC5B22FEDD" name="reserva PK">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:27:03 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6CEEDD0-1868-AE63-D84C-E0E83CAD88E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

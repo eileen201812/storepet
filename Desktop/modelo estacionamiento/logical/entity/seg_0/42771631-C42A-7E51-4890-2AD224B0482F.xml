@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42771631-C42A-7E51-4890-2AD224B0482F" name="medio_de_pago">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:27:53 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_de_pago" id="FCE81C6C-A91F-2276-5C2C-BFC056A9E4E1">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:28:09 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod." id="2112C71F-528E-6316-0109-843866A02220">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:28:26 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_id" id="24DD6134-3105-D6A1-C14D-061B44484E53">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:30:52 UTC</createdTime>
+<generatorID>92081574-514E-BE38-166B-9897971F14D2</generatorID>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3FFA1858-65E0-2615-5806-A426F9C8C38E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_de_pago1" id="13968A59-A7E8-320F-144B-C8ECAD4B0432">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:31:08 UTC</createdTime>
+<generatorID>AAE47526-80CF-95AB-5687-A91FB29D87E5</generatorID>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FCE81C6C-A91F-2276-5C2C-BFC056A9E4E1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C83867EB-3A50-478F-27E7-09B2A2CCC50E" name="medio_de_pago PK">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:28:25 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<engineerTo>
+<item key="BAE221B4-17A0-108D-5CB4-0ECFA561DF59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCE81C6C-A91F-2276-5C2C-BFC056A9E4E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

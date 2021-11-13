@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo estacionamiento" id="85A44D46-C42A-F9AD-843C-0BDACF8D1FB7" version="3.5">
+<createdBy>edcse</createdBy>
+<createdTime>2021-11-13 02:01:53 UTC</createdTime>
+<ownerDesignName>modelo estacionamiento</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>85A44D46-C42A-F9AD-843C-0BDACF8D1FB7</designId>
+</OSDM_Design>
