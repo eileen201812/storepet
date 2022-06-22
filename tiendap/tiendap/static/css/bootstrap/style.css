@@ -1,0 +1,139 @@
+.carousel-item  .img{
+  min-height: 200px;
+  height: 400px;
+}
+
+
+
+.carousel-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor-galeria
+{
+  font-family: 'open sans';
+  
+} 
+.contenedor-galeria .h1
+{
+  text-align: center;
+  margin:20px 0 15px 0;
+  font-weight: 300;
+}
+
+.contenedor-linea{
+  border-top:5px solid rgb(89, 209, 230);
+}
+
+.contenedor-imagenes{
+  display: flex;
+width: 85%;
+margin:auto;
+justify-content: space-around;
+flex-wrap: wrap;
+border-radius: 3px;
+}
+
+.contenedor-imagenes .imagen{
+  width: 32%;
+position: relative;
+height: 400px;
+margin-bottom: 5px;
+box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+}
+
+.imagen img{
+  width: 100%;
+  height: 100%;
+  }
+
+.cards-banner{
+  background: #C6DCE4;
+  border-radius: 10px;
+  text-align: center;
+}
+.quienes_somos{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: black;
+  }
+.somos_text{
+  margin-top: 3%;
+} 
+.img_p{
+    text-align: center;
+  }
+  .dolar{
+    font-size: 1.5em;
+    font-weight: 800;
+    }
+ 
+
+    .pie-pagina {
+      width: 100%;
+      background-color: black;
+      
+      }
+      
+      .grupo-1 {
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+      padding: 45px 0px;
+      margin: center;
+      
+      }
+      
+      .pie-pagina .grupo-1 .box figure {
+      width: 100%;
+      height: 100%;
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      }
+      
+      .pie-pagina .grupo-1 .box figure.box figure img {
+      width: 200px;
+      }
+      
+      .pie-pagina .grupo-1 .box figure.box figure h2 {
+        color:#fff;
+      margin-bottom: 25px;
+      font-size: 20px;
+      margin: center;
+      }
+      
+      .pie-pagina .grupo-1 .box figure.box figure p{
+        color:#fff;
+      margin-bottom: 18px;
+      font-size: 20px;
+      margin: center;
+      
+      }
+      
+      .pie-pagina .grupo-2{
+      background-color:black;
+      padding:15px 10px;
+      text-align:center;
+      color:#fff;
+      }
+    
+    
+    
+    
+    
+
+
+
+

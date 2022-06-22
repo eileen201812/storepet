@@ -1,0 +1,60 @@
+{% extends "main-template.html" %}{% load static %}
+{% block title %}StorePet home{% endblock %}
+{% block content %}
+<!--carrusel-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'img\carousel\negro.jpg' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img\carousel\LAB_RRSS_JUN_25_Nota_Editorial_Op2-600x315.jpg' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img\carousel\BEBE.JPG' %}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<!--carrusel end-->
+
+
+<section class="container quienes_somos">
+  <div class="row gx-5">
+      <div class="col-md-6 img_p"><img src="{% static 'img/servicios/perrito.jpg' %}" class="img-fluid" alt="..."></div>
+      <div class="col-md-6 somos_text">
+        <h4 >Quienes somos</h4>
+        <p> Somo un grupo de amigas comenzó a realizar la venta de productos para mascotas 
+          como bandanas, correas e identificaciones, todo esto para ayudar a una fundación 
+          sin fines de lucro, todo partió a través de las redes sociales</p>
+      </div>
+    
+  </div><!--/row-->
+</section><!-- /section -->
+        
+<section class="container">
+  <div class="row gx-5">   
+     <div class="cards-banner col-lg-12">
+            
+       <h4>Indicador del dolar y la fecha</h4>
+        <div class="dolar"> {{  dolar }}
+        </div>
+        <div>
+          {{ fecha }}
+        </div>
+      </div>
+  </div><!--/row-->
+</section><!-- /section -->
+
+{% endblock %}

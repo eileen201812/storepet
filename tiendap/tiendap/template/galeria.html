@@ -1,0 +1,31 @@
+{% extends "main-template.html" %}{% load static %}
+{% block title %}StorePet galeria{% endblock %}
+{% block content %}
+<div class="contenedor-galeria">
+    <h1>Nuestro servicios</h1>
+    <div class="contenedor-linea"></div>
+    <div class="contenedor-imagenes">
+        <div class="imagen">
+            <img src="{%  static 'img\servicios\bandana.jpg'%}" alt="">
+          </div>
+          <div class="imagen">
+          <img src="{%  static 'img\servicios\pelu-canina.jpg'%}" alt="">
+        </div> 
+        <div class="imagen">
+          <img src="{%  static 'img\servicios\2075_higiene_felina_final_web.jpg'%}" alt="">
+        </div> 
+        <div class="imagen">
+          <img src="{%  static 'img\servicios\ima1.jpeg'%}" alt="">
+        </div> 
+        <div class="imagen">
+          <img src="{%  static 'img\servicios\holi.jpg'%}" alt="">
+        </div>
+        <div class="imagen">
+          <img src="{%  static 'img\servicios\camadegato.jpg'%}" alt="">
+        </div>
+    </div>
+
+
+        
+     
+{% endblock %}
