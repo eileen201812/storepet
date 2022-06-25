@@ -38,4 +38,6 @@ def load_contacto(request):
     contactos = Contacto.objects.all
     return render(request, 'mantenedor-contacto.html', {'contactos': contactos})            
         
+          
+        
 

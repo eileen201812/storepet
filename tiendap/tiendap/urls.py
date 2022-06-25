@@ -19,7 +19,8 @@ from tiendap.views.home import index
 from tiendap.views.galeria import galeria_index
 from tiendap.views.contacto import contacto_index,formulario_contacto
 from tiendap.views.mantenedorcontacto import load_contacto
-from tiendap.views.usurio import usuario_index
+from tiendap.views.usurio import usuario_index,formulario_usuario
+from tiendap.views.mantenedoruser import load_usuario
 
 
 
@@ -33,10 +34,9 @@ urlpatterns = [
     path('contacto/', contacto_index),
     path('contacto/formulario', formulario_contacto),  
     path('mantenedor-contacto/', load_contacto),
-    path('usuario/', usuario_index),  
- 
-   
-   
-    
+    path('usuario/', usuario_index), 
+    path('registro/formulario', formulario_usuario),
+    path('mantenedoruser/', load_usuario), 
+       
     
 ]

@@ -3,42 +3,53 @@
 {% block content %}
 
 
-<form id="frm-registrodeusuario" method="POST" action="/contacto/formulario">{% csrf_token %}
-    <div class="container" style="max-width:700px !important">
-      <div class="form-group row">
-        <div class="col-sm-9">
+
+<form style="margin-bottom: 6% !important; margin-top:5% !important;" id="frm-registrodeusuario" method="POST" action="/registro/formulario">{% csrf_token %}
+  <div class="container" style="max-width:700px !important">
+    <div class="form-group row">
+      <div class="col-sm-9">
+        <label for="txt-run" class="form-label">RUN</label>
+        <input id="txt-run" name="run" class="form-control" placeholder="RUN" />
       </div>
-      <div class="form-group row">
-        <div class="col-sm-6">
-          <label for="txt-nombres" class="form-label">NOMBRES</label>
-          <input id="txt-nombres" name="nombres" class="form-control" placeholder="NOMBRES" />        
-        </div>
-        <div class="col-sm-6">
-          <label for="txt-apellido-paterno" class="form-label">APELLIDO PATERNO</label>
-          <input id="txt-apellido-paterno" name="apellido-paterno" class="form-control" placeholder="APELLIDO PATERNO" />        
-        </div>   
+      <div class="col-sm-3">
+        <label for="txt-dv" class="form-label">DV</label>
+        <input id="txt-dv" name="dv" class="form-control" placeholder="DV" />
       </div>
-      <div class="form-group row">
-        <div class="col-sm-6">
-          <label for="txt-apellido-materno" class="form-label">APELLIDO MATERNO</label>
-          <input id="txt-apellido-materno" name="apellido-materno" class="form-control" placeholder="APELLIDO MATERNO" />        
-        </div> 
     </div>
-      <div class="form-group row">
-        <div class="col-sm-6">
-          <label for="txt-email" class="form-label">EMAIL</label>
-          <input id="txt-email" name="email" class="form-control" placeholder="EMAIL" />        
-        </div>       
-      <div class="form-group row">        
-          <button type="button" style="margin-top: 15px;" 
-                        class=" col-sm-3 btn btn-primary"
-                        onclick="enviar()">ENVIAR</button>
-      </div>         
+    <div class="form-group row">
+      <div class="col-sm-6">
+        <label for="txt-nombres" class="form-label">NOMBRES</label>
+        <input id="txt-nombres" name="nombres" class="form-control" placeholder="NOMBRES" />        
+      </div>
+      <div class="col-sm-6">
+        <label for="txt-apellido-paterno" class="form-label">APELLIDO PATERNO</label>
+        <input id="txt-apellido-paterno" name="apellido-paterno" class="form-control" placeholder="APELLIDO PATERNO" />        
+      </div>   
     </div>
-  </form>
-  <div id="txt-message">
+    <div class="form-group row">
+      <div class="col-sm-6">
+        <label for="txt-apellido-materno" class="form-label">APELLIDO MATERNO</label>
+        <input id="txt-apellido-materno" name="apellido-materno" class="form-control" placeholder="APELLIDO MATERNO" />        
+      </div> 
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-12">
+        <label for="txt-email" class="form-label">EMAIL</label>
+        <input id="txt-email" name="email" class="form-control" placeholder="EMAIL" />        
+      </div>       
+    </div>
+    <div class="form-group row">        
+        <button type="button" style="margin-top: 15px;" 
+                      class=" col-sm-3 btn btn-primary"
+                      onclick="enviar()">ENVIAR</button>
+    </div>         
+  </div>
+</form>
+<div id="txt-message">
 </div>
 <script src="{% static 'js/custom/form-enviar-registro.js' %}"></script>
 </div>
 </div>
-  {% endblock %}
+
+
+{% endblock %}

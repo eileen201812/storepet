@@ -5,26 +5,26 @@
 
 
 
+
+
 .carousel-item {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.contenedor-galeria
-{
+.contenedor-galeria {
   font-family: 'open sans';
-  
+
 } 
-.contenedor-galeria .h1
-{
-  text-align: center;
+.contenedor-galeria .h1{
+  text-align:center;
   margin:20px 0 15px 0;
   font-weight: 300;
 }
 
 .contenedor-linea{
-  border-top:5px solid rgb(89, 209, 230);
+  border-top:5px solid rgb(82, 36, 160);
 }
 
 .contenedor-imagenes{
@@ -50,6 +50,7 @@ box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
   }
 
 .cards-banner{
+
   background: #C6DCE4;
   border-radius: 10px;
   text-align: center;
@@ -74,7 +75,6 @@ box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
     font-weight: 800;
     }
  
-
     .pie-pagina {
       width: 100%;
       background-color: black;
@@ -107,15 +107,15 @@ box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
       width: 200px;
       }
       
-      .pie-pagina .grupo-1 .box figure.box figure h2 {
-        color:#fff;
+      .pie-pagina .grupo-1 .box figure.box figure .h2 {
+      color:#fff;
       margin-bottom: 25px;
       font-size: 20px;
       margin: center;
       }
       
-      .pie-pagina .grupo-1 .box figure.box figure p{
-        color:#fff;
+      .pie-pagina .grupo-1 .box figure.box figure .p{
+      color: #fff;
       margin-bottom: 18px;
       font-size: 20px;
       margin: center;
@@ -133,7 +133,3 @@ box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
     
     
     
-
-
-
-

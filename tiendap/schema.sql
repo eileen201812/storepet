@@ -13,6 +13,8 @@ CREATE TABLE contacto (
 
 CREATE TABLE registrodeusuario (
 	codigo bigserial,
+	run numeric(13),
+	dv varchar(1),
 	nombres varchar(80),
 	apellido_paterno varchar(80),
 	apellido_materno varchar(80),

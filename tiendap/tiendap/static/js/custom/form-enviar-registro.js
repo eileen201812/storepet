@@ -1,14 +1,16 @@
 function enviar(){
 
-  
+    let  run = document.getElementById("txt-run").value;
+    let  dv = document.getElementById("txt-dv").value;
     let  nombres = document.getElementById("txt-nombres").value;
     let  apellidoPaterno = document.getElementById("txt-apellido-paterno").value;
     let  apellidoMaterno = document.getElementById("txt-apellido-materno").value;
     let  email = document.getElementById("txt-email").value;
    
     
-    if(isEmpty(nombres) &&  isEmpty(apellidoPaterno) && 
-    isEmpty(apellidoMaterno) &&isEmpty(email) 
+    if(isEmpty(run) && isEmpty(dv) && isEmpty(nombres) && 
+    isEmpty(apellidoPaterno) && isEmpty(apellidoMaterno) &&
+    isEmpty(email)
     ){
         console.log('formulario completamente lleno');
         let etiqueta =  document.getElementById("txt-message");
@@ -18,7 +20,7 @@ function enviar(){
                 //'<button type="button" class="close" data-dismiss="alert" aria-label="Close">' +
                 //'<span aria-hidden="true">\&times;</span></button>'
                 '</div>';
-        document.getElementById('frm-contacto').submit();
+        document.getElementById('frm-registrodeusuario').submit();
     }else{
         console.log('formulario con campos vacios');
         let etiqueta =  document.getElementById("txt-message");
