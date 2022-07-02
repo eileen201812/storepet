@@ -18,10 +18,23 @@ from django.urls import path
 from tiendap.views.home import index
 from tiendap.views.galeria import galeria_index
 from tiendap.views.contacto import contacto_index,formulario_contacto
-from tiendap.views.mantenedorcontacto import load_contacto
 from tiendap.views.usurio import usuario_index,formulario_usuario
+from tiendap.views.mantenedorcontacto import load_contacto
 from tiendap.views.mantenedoruser import load_usuario
+from tiendap.views import login
+from tiendap.views import logout
+from django.contrib.auth.models import Permission, ContentType
+from tiendap.models import Contacto
+from tiendap.models import Registrodeusuario
 
+
+
+
+
+admin.site.register(Permission)
+admin.site.register(ContentType)
+admin.site.register(Contacto)
+admin.site.register(Registrodeusuario)
 
 
 
@@ -32,11 +45,18 @@ urlpatterns = [
     path('index/', index),
     path('galeria/', galeria_index),
     path('contacto/', contacto_index),
-    path('contacto/formulario', formulario_contacto),  
-    path('mantenedor-contacto/', load_contacto),
+    path('contacto/formulario', formulario_contacto), 
     path('usuario/', usuario_index), 
+    path('mantenedor-contacto/', load_contacto),
     path('registro/formulario', formulario_usuario),
-    path('mantenedoruser/', load_usuario), 
-       
+    path('mantenedoruser/', load_usuario),
+    path('login', login.index), 
+    path('logout/', logout.logout_user),
+    
+  
+
+
+    
+
     
 ]

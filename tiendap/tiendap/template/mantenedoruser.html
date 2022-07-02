@@ -24,6 +24,7 @@
                 <td>{{r.apellido_paterno}}</td>
                 <td>{{r.apellido_materno}}</td>
                 <td>{{r.email}}</td>
+                {% if perms.tiendap.delete_registrodeusuario %}
                 <td><button type="button" class="btn btn-danger" 
                   data-bs-toggle="modal" 
                   data-bs-target="#mdl-{{r.codigo}}">ELIMINAR</button>
@@ -49,6 +50,8 @@
                     </div>
                   </div>
                 </td>
+                {% endif %}
+                {% if perms.tiendap.change_registrodeusuario %}
                 <td>
                   <button type="button" class="btn btn-primary" 
                   data-bs-toggle="modal" 
@@ -108,18 +111,14 @@
                       </div>
                     </div>
                   </div>                  
-                </td>                
+                </td>
+                {% endif %}                   
             </tr>
 
-
-
-
-        {% endfor %}      
+        {% endfor %}
+              
     </tbody>
   </table>
 
-
-
-  
 {% endblock %}
   
