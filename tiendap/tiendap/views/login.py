@@ -1,31 +1,35 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import redirect, render
 from django.contrib.auth import login, authenticate
+from tiendap.util.autogenerate import generate
 
-def index(request):
-    print('login.index')
+def authentication(request):
     if request.method == 'POST':
-        print('request.method: ',  request.method)        
         try:
             username = request.POST.get('username')
             password = request.POST.get('password')
-            print('username: ',  username)        
-            print('password: ',  password)                    
             user = authenticate(username=username, password=password)
-            print('authenticated: ',  True)                                            
-            login(request, user)
-            print('login: ',  True)                                
-            return redirect('/index/')
+            login(request, user)            
         except Exception as e:
-            print(e)        
-    return render(request, 'login.html')
+            print('Error: ', e)
+    return redirect('home/')
 
 def authorization(request, perm):
     print('authorization | user -> ', request.user)
+
     if request.user != None and request.user.__str__() != 'AnonymousUser':
         if request.user.has_perm(perm):
+            print('Authorized')
             return True, ''
         else:
+            print('Forbidden')
             return False, '/error-403/'
     else:
         print('Unauthorized')
         return False, '/error-401/'
+
+def send_mail_recovery_pass(username):
+    return None
+
+def recovery_pass(request):
+    print('new key', generate(32))
+    return None                             

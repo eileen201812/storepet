@@ -148,4 +148,29 @@ box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
       }
 
 
+     
+      .product{
+        grid-template-columns: repeat(3, 1fr);
+        box-shadow: 1px 1px 1px rgb(132, 129, 129);
+        width: 5em;
+        height: auto;
+        border-radius: 3px;
+        padding: 2em;
+        margin: 1em;
+        overflow: hidden;
+        flex: auto;
+      }
+
+      .product img{
+        
+        max-width: 150%;
+        height: auto;
+        text-align: center;
       
+    }
+
+    .product_inner{
+      display: flex;
+      align-items: center;
+      flex-flow: column wrap;
+      }

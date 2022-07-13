@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{%  endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}">   
-    <link rel="stylesheet" href="{% static 'css/bootstrap/style.css' %}">  
+    <link rel="stylesheet" href="{% static 'css/bootstrap/style.css' %}">
+   
   
 </head>
 <body>
@@ -25,22 +26,17 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/galeria">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/products">Producto</a>
+              </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/contacto">Contacto</a>
                 </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/usuario">crear usuario</a>
-              </li>
               {% if user.is_authenticated %} 
               <li class="nav-item">
                 <a class="nav-link" href="/mantenedor-contacto">mantenedor contacto</a>
               </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="/mantenedoruser">usuarios</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="/logout">Logout</a>
               </li> 
               {% else %} 
