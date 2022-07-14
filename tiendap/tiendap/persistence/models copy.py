@@ -276,7 +276,6 @@ class States(models.Model):
 
 
 class Stock(models.Model):
-    supplier_code = models.OneToOneField('Supplier', models.DO_NOTHING, db_column='supplier_code', primary_key=True)
     product_code = models.ForeignKey(Product, models.DO_NOTHING, db_column='product_code')
     buy_date = models.DateField()
     unit_price = models.BigIntegerField(blank=True, null=True)
@@ -284,7 +283,7 @@ class Stock(models.Model):
     class Meta:
         managed = False
         db_table = 'stock'
-        unique_together = (('supplier_code', 'product_code', 'buy_date'),)
+        unique_together = (( 'product_code', 'buy_date'),)
 
 
 class Supplier(models.Model):
